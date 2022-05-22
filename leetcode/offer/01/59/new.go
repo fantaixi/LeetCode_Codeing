@@ -1,0 +1,27 @@
+package main
+
+//使用单调队列
+func maxSlidingWindow3(nums []int, k int) []int {
+	q := []int{}
+	//push操作,将不在队列中的元素移除
+	push := func(i int) {
+		for len(q) > 0 && nums[i] >= nums[q[len(q)-1]] {
+			q = q[:len(q)-1]
+		}
+		q = append(q,i)
+	}
+	for i := 0; i < k; i++ {
+		push(i)
+	}
+	n := len(nums)
+	ans := make([]int,1,n-k+1)
+	ans[0] = nums[q[0]]
+	for i := k; i < n; i++ {
+		push(i)
+		for q[0] <= i-k {
+			q = q[1:]
+		}
+		ans = append(ans,nums[q[0]])
+	}
+	return ans
+}

@@ -1,0 +1,10 @@
+package main
+
+import "math"
+
+func main() {
+
+}
+func mySqrt(x int) int {
+	return (int(math.Sqrt(float64(x))))
+}
