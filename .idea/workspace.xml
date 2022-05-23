@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38ec6f6d-ae47-40c3-8e5c-a3eba830398e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../go_grpc/cert/ca.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/cert/server.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/cert/server.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/keys/server.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/keys/server_no_passwd.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/pbfiles/Prod.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/services/Prod.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc/services/ProdService.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/cert/ca.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/cert/client.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/cert/client.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/keys/server.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go_grpc_cli/services/Prod.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1003/反转链表/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/1maopao/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/2charu/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/3shell/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/4xuanze/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/5dui/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/6guibing/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zj_data_structure/1006/7kuaisu/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="38ec6f6d-ae47-40c3-8e5c-a3eba830398e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +17,7 @@
   </component>
   <component name="GOROOT" url="file://D:/go_sdk" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -151,7 +125,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
