@@ -8,5 +8,29 @@ package _16
 示例 2: 输入: k = 3, n = 9 输出: [[1,2,6], [1,3,5], [2,3,4]]
  */
 func combinationSum3(k int, n int) [][]int {
-	return nil
+	var path []int
+	var res [][]int
+	backstack(n,k,1,&path,&res)
+	return res
+}
+
+func backstack(n, k, startIndex int, path *[]int,res *[][]int) {
+	if len(*path) == k {
+		sum := 0
+		temp := make([]int,k)
+		//将结果放入path，避免使用重复数字
+		for k, v := range *path {
+			sum += v
+			temp[k] = v
+		}
+		if sum == n {
+			*res = append(*res,temp)
+		}
+		return
+	}
+	for i := startIndex; i <= 9-(k-len(*path))+1 ; i++ {
+		*path = append(*path,i)
+		backstack(n,k,i+1,path,res)
+		*path = (*path)[:len(*path)-1]
+	}
 }
