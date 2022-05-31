@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38ec6f6d-ae47-40c3-8e5c-a3eba830398e" name="Default Changelist" comment="2022.5.25">
-      <change beforePath="$PROJECT_DIR$/karl/7huisu/93/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/karl/7huisu/93/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="38ec6f6d-ae47-40c3-8e5c-a3eba830398e" name="Default Changelist" comment="2022.5.25" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +69,7 @@
       <recent name="E:\go_workspace\src\LeetCode_Codeing\karl" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build LeetCode_Codeing/karl/7huisu/131new">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build LeetCode_Codeing/karl/7huisu/131" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Codeing" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,13 +97,13 @@
       <filePath value="$PROJECT_DIR$/karl/7huisu/131/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode_Codeing" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="LeetCode_Codeing" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/karl/7huisu/77/main.go" />
+      <filePath value="$PROJECT_DIR$/karl/7huisu/46/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build LeetCode_Codeing/karl/7huisu/131new" />
         <item itemvalue="Go Build.go build LeetCode_Codeing/karl/7huisu/131" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
