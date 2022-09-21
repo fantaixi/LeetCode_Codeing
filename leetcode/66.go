@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。
 最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。
@@ -42,8 +40,8 @@ func plusOne1(digits []int) []int {
 	}
 	return append([]int{1},digits...)
 }
-func main() {
-	arr := []int{1,2,9}
-	fmt.Println(plusOne(arr))
-
-}
+//func main() {
+//	arr := []int{1,2,9}
+//	fmt.Println(plusOne(arr))
+//
+//}
